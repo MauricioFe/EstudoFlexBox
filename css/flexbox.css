@@ -36,8 +36,13 @@
 .conteudoPrincipal-cursos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .conteudoPrincipal-cursos-link{
-    width: 23%;
+    width: 23%; 
+}
+.conteudoPrincipal-cursos-link:nth_child(4n){
+    margin-right: 0;
+}
+.conteudoPrincipal-cursos-link:nth_child(4n+1){
+    margin-left: 0;
 }
