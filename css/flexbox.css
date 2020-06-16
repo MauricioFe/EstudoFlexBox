@@ -46,3 +46,15 @@
 .conteudoPrincipal-cursos-link:nth_child(4n+1){
     margin-left: 0;
 }
+
+section .container{
+    display: flex;
+    justify-content: space-around;
+}
+.videoSobre-sobre{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
